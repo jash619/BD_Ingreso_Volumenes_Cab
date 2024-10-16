@@ -1,3 +1,5 @@
+CREATE DATABASE  IF NOT EXISTS `credicel_BD_VOLUMENES_CAB` /*!40100 DEFAULT CHARACTER SET latin1 COLLATE latin1_spanish_ci */;
+USE `credicel_BD_VOLUMENES_CAB`;
 -- MySQL dump 10.13  Distrib 8.0.38, for Win64 (x86_64)
 --
 -- Host: 190.90.160.172    Database: credicel_BD_VOLUMENES_CAB
@@ -27,7 +29,7 @@ CREATE TABLE `categorias` (
   `nombre` varchar(45) NOT NULL,
   PRIMARY KEY (`idcategorias`),
   UNIQUE KEY `idcategorias_UNIQUE` (`idcategorias`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_spanish_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=latin1 COLLATE=latin1_spanish_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -36,6 +38,7 @@ CREATE TABLE `categorias` (
 
 LOCK TABLES `categorias` WRITE;
 /*!40000 ALTER TABLE `categorias` DISABLE KEYS */;
+INSERT INTO `categorias` VALUES (1,'CATEGORIA 0'),(2,'CATEGORIA 1'),(3,'CATEGORIA 2'),(4,'CATEGORIA 3'),(5,'CATEGORIA 4');
 /*!40000 ALTER TABLE `categorias` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -48,4 +51,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2024-10-11 20:28:55
+-- Dump completed on 2024-10-16 18:31:02

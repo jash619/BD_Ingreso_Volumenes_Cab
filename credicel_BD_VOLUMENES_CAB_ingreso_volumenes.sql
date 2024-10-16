@@ -1,3 +1,5 @@
+CREATE DATABASE  IF NOT EXISTS `credicel_BD_VOLUMENES_CAB` /*!40100 DEFAULT CHARACTER SET latin1 COLLATE latin1_spanish_ci */;
+USE `credicel_BD_VOLUMENES_CAB`;
 -- MySQL dump 10.13  Distrib 8.0.38, for Win64 (x86_64)
 --
 -- Host: 190.90.160.172    Database: credicel_BD_VOLUMENES_CAB
@@ -50,6 +52,7 @@ CREATE TABLE `ingreso_volumenes` (
 
 LOCK TABLES `ingreso_volumenes` WRITE;
 /*!40000 ALTER TABLE `ingreso_volumenes` DISABLE KEYS */;
+INSERT INTO `ingreso_volumenes` VALUES (1,1,3,'Tonelada',118,1,'2024-10-01',1),(2,2,8,'Tonelada',349,2,'2024-10-01',2),(3,4,5,'Tonelada',499,1,'2024-10-01',3),(4,11,5,'Tonelada',908,1,'2024-10-01',4),(5,20,6,'Tonelada',897,1,'2024-10-01',5),(6,22,5,'Tonelada',58,1,'2024-10-01',6),(7,28,6,'Tonelada',671,1,'2024-10-01',7),(8,49,13,'Tonelada',984,1,'2024-10-01',8);
 /*!40000 ALTER TABLE `ingreso_volumenes` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -62,4 +65,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2024-10-11 20:29:01
+-- Dump completed on 2024-10-16 18:31:03

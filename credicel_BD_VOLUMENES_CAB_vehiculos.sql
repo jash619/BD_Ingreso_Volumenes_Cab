@@ -1,3 +1,5 @@
+CREATE DATABASE  IF NOT EXISTS `credicel_BD_VOLUMENES_CAB` /*!40100 DEFAULT CHARACTER SET latin1 COLLATE latin1_spanish_ci */;
+USE `credicel_BD_VOLUMENES_CAB`;
 -- MySQL dump 10.13  Distrib 8.0.38, for Win64 (x86_64)
 --
 -- Host: 190.90.160.172    Database: credicel_BD_VOLUMENES_CAB
@@ -30,7 +32,7 @@ CREATE TABLE `vehiculos` (
   UNIQUE KEY `idvehiculos_UNIQUE` (`idvehiculos`),
   KEY `categorias_id_idx` (`categorias_id`),
   CONSTRAINT `categorias_id` FOREIGN KEY (`categorias_id`) REFERENCES `categorias` (`idcategorias`) ON DELETE NO ACTION ON UPDATE NO ACTION
-) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_spanish_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=17 DEFAULT CHARSET=latin1 COLLATE=latin1_spanish_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -39,6 +41,7 @@ CREATE TABLE `vehiculos` (
 
 LOCK TABLES `vehiculos` WRITE;
 /*!40000 ALTER TABLE `vehiculos` DISABLE KEYS */;
+INSERT INTO `vehiculos` VALUES (1,'XMD181',1),(2,'BUG993',2),(3,'HAR264',3),(4,'XMD182',1),(5,'XVW943',1),(6,'HAR265',4),(7,'BUG994',3),(8,'GQU973',3),(9,'LOL903',4),(10,'KLK540',2),(11,'POK123',3),(12,'LLL903',4),(13,'TTT098',3),(14,'MNK943',2),(15,'XME144',5),(16,'QAZ345',2);
 /*!40000 ALTER TABLE `vehiculos` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -51,4 +54,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2024-10-11 20:28:57
+-- Dump completed on 2024-10-16 18:31:01
