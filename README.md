@@ -1,4 +1,4 @@
-📦 Central de Abastos Bucaramanga - Gestión de Productos
+Gestión de Productos
 ¡Bienvenido al sistema de gestión de productos de la Central de Abastos de Bucaramanga! 🏙️
 Este proyecto tiene como objetivo llevar un control detallado del ingreso de productos 🥬🍎🐟🥩🫘 provenientes de diversas regiones de Colombia 🇨🇴.
 
@@ -15,5 +15,6 @@ Los productos provienen de diferentes zonas de Colombia, asegurando una oferta d
 
 🚀 Funcionalidades principales
 Registro de productos: Ingreso de productos por categoría (frutas, verduras, pescado, etc.).
-Consulta de vehiculos: Información sobre los vehiculos que distribuyen productos desde diversas regiones de Colombia.
+Gestión de inventario: Control del stock de productos.
+Consulta de proveedores: Información sobre los proveedores que distribuyen productos desde diversas regiones de Colombia.
 Reportes de abastecimiento: Generación de reportes sobre el estado del abastecimiento de la central.
