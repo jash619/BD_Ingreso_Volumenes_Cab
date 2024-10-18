@@ -6,7 +6,7 @@ Este proyecto tiene como objetivo llevar un control detallado del ingreso de pro
 Este repositorio contiene una base de datos diseñada para gestionar el abastecimiento de diferentes productos que llegan a la central de abastos. El sistema permite registrar, consultar y actualizar la información de los siguientes productos:
 
 🍎 Frutas
-🥬 Verduras y hortalizas
+🥬 Verduras y hortalizas.
 🐟 Pescado
 🥩 Carnes frías
 🫘 Legumbres
