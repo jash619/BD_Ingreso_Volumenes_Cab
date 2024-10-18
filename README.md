@@ -1,13 +1,13 @@
-    Gestión de Productos
-¡Bienvenido al sistema de gestión de productos de la Central de Abastos de Bucaramanga! 🏙️
+                Gestión de Productos
+                            ¡Bienvenido al sistema de gestión de productos de la Central de Abastos de Bucaramanga! 🏙️
 Este proyecto tiene como objetivo llevar un control detallado del ingreso de productos 🥬🍎🐟🥩🫘 provenientes de diversas regiones de Colombia 🇨🇴.
 
 📝 Descripción del proyecto
 Este repositorio contiene una base de datos diseñada para gestionar el abastecimiento de diferentes productos que llegan a la central de abastos. El sistema permite registrar, consultar y actualizar la información de los siguientes productos:
 
-🍎 Frutas
-🥬 Verduras y hortalizas.
-🐟 Pescado
+                    🍎 Frutas
+                🥬 Verduras y hortalizas.
+            🐟 Pescado
 🥩 Carnes frías
 🫘 Legumbres
 🛒 Abarrotes
