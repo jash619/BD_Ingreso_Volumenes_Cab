@@ -128,7 +128,7 @@ CREATE TABLE `ingreso_volumenes` (
 
 LOCK TABLES `ingreso_volumenes` WRITE;
 /*!40000 ALTER TABLE `ingreso_volumenes` DISABLE KEYS */;
-INSERT INTO `ingreso_volumenes` VALUES (00000000001,1,3,'Tonelada',118,1,'2024-10-01',00000000001),(00000000002,2,8,'Tonelada',349,2,'2024-10-01',00000000002),(00000000003,4,5,'Tonelada',499,1,'2024-10-01',00000000003),(00000000004,11,5,'Tonelada',908,1,'2024-10-01',00000000004),(00000000005,20,6,'Tonelada',897,1,'2024-10-01',00000000005),(00000000006,22,5,'Tonelada',58,1,'2024-10-01',00000000006),(00000000007,28,6,'Tonelada',671,1,'2024-10-01',00000000007),(00000000008,49,13,'Tonelada',984,1,'2024-10-01',00000000008),(00000000009,49,13,'Tonelada',984,1,'2024-10-03',00000000008),(00000000010,49,13,'Tonelada',984,2,'2024-10-03',00000000001);
+INSERT INTO `ingreso_volumenes` VALUES (00000000001,1,3,'Tonelada',118,1,'2024-10-01',00000000001),(00000000002,2,8,'Tonelada',349,2,'2024-10-01',00000000002),(00000000003,4,5,'Tonelada',499,1,'2024-10-01',00000000003),(00000000004,11,5,'Tonelada',908,1,'2024-10-01',00000000004),(00000000005,20,6,'Tonelada',897,1,'2024-10-01',00000000005),(00000000006,22,5,'Tonelada',58,1,'2024-10-01',00000000006),(00000000007,28,6,'Tonelada',671,1,'2024-10-01',00000000007),(00000000008,49,13,'Tonelada',984,1,'2024-10-01',00000000008),(00000000009,49,13,'Tonelada',984,1,'2024-10-03',00000000008),(00000000010,49,13,'Tonelada',984,2,'2024-10-03',00000000001),(00000000011,1,1,'Tonelada',863,1,'2024-11-04',00000000001),(00000000012,74,5,'Tonelada',499,1,'2024-11-04',00000000002),(00000000013,2,5,'Tonelada',547,1,'2024-11-04',00000000003),(00000000014,75,34,'Tonelada',171,1,'2024-11-04',00000000017),(00000000015,76,13,'Tonelada',434,1,'2024-11-04',00000000005),(00000000016,4,1,'Tonelada',499,1,'2024-11-04',00000000006),(00000000017,32,12,'Tonelada',956,1,'2024-11-04',00000000007),(00000000018,34,8,'Tonelada',1000,1,'2024-11-04',00000000008),(00000000019,77,34,'Tonelada',434,1,'2024-11-04',00000000009),(00000000020,11,7,'Tonelada',908,1,'2024-11-04',00000000010),(00000000021,16,5,'Tonelada',499,1,'2024-11-04',00000000011),(00000000022,78,2,'Tonelada',107,1,'2024-11-04',00000000012),(00000000023,21,10,'Tonelada',471,1,'2024-11-04',00000000013),(00000000024,44,4,'Tonelada',380,1,'2024-11-04',00000000014),(00000000025,19,5,'Tonelada',746,1,'2024-11-04',00000000015),(00000000026,23,4,'Tonelada',499,1,'2024-11-04',00000000016),(00000000027,23,7,'Tonelada',499,1,'2024-11-04',00000000001),(00000000028,23,4,'Tonelada',499,1,'2024-11-04',00000000002),(00000000029,24,3,'Tonelada',787,1,'2024-11-04',00000000003),(00000000030,25,10,'Tonelada',179,1,'2024-11-04',00000000004),(00000000031,38,3,'Tonelada',511,1,'2024-11-04',00000000005),(00000000032,47,5,'Tonelada',380,1,'2024-11-04',00000000006),(00000000033,46,7,'Tonelada',908,1,'2024-11-04',00000000007),(00000000034,52,10,'Tonelada',897,1,'2024-11-04',00000000008),(00000000035,41,6,'Tonelada',204,1,'2024-11-04',00000000009),(00000000036,42,7,'Tonelada',283,1,'2024-11-04',00000000010),(00000000037,39,24,'Tonelada',950,1,'2024-11-04',00000000011),(00000000038,43,17,'Tonelada',912,1,'2024-11-04',00000000012),(00000000039,63,2,'Tonelada',85,1,'2024-11-04',00000000013),(00000000040,1,4,'Tonelada',863,2,'2024-11-04',00000000014),(00000000041,76,19,'Tonelada',434,2,'2024-11-04',00000000015),(00000000042,55,3,'Tonelada',586,2,'2024-11-04',00000000016),(00000000043,4,7,'Tonelada',499,2,'2024-11-04',00000000017),(00000000044,56,3,'Tonelada',586,2,'2024-11-05',00000000001),(00000000045,33,5,'Tonelada',612,2,'2024-11-05',00000000002),(00000000046,32,98,'Tonelada',956,2,'2024-11-05',00000000003),(00000000047,34,3,'Tonelada',1000,2,'2024-11-05',00000000004),(00000000048,79,3,'Tonelada',586,2,'2024-11-05',00000000005),(00000000049,13,1,'Tonelada',499,2,'2024-11-05',00000000006),(00000000050,15,3,'Tonelada',499,2,'2024-11-05',00000000007),(00000000051,59,9,'Tonelada',586,2,'2024-11-05',00000000008),(00000000052,21,24,'Tonelada',471,2,'2024-11-05',00000000009),(00000000053,20,5,'Tonelada',897,2,'2024-11-05',00000000010),(00000000054,80,6,'Tonelada',179,2,'2024-11-05',00000000011),(00000000055,22,3,'Tonelada',661,2,'2024-11-05',00000000012),(00000000056,19,18,'Tonelada',499,2,'2024-11-05',00000000013),(00000000057,23,18,'Tonelada',746,2,'2024-11-05',00000000014),(00000000058,24,5,'Tonelada',787,2,'2024-11-05',00000000015),(00000000059,60,1,'Tonelada',661,2,'2024-11-05',00000000016),(00000000060,38,7,'Tonelada',661,2,'2024-11-05',00000000017),(00000000061,44,8,'Tonelada',612,3,'2024-11-03',00000000001),(00000000062,48,25,'Tonelada',1026,3,'2024-11-03',00000000002),(00000000063,46,7,'Tonelada',908,3,'2024-11-03',00000000003),(00000000064,52,8,'Tonelada',897,3,'2024-11-03',00000000004),(00000000065,41,6,'Tonelada',204,3,'2024-11-03',00000000005),(00000000066,42,7,'Tonelada',204,3,'2024-11-03',00000000006),(00000000067,40,20,'Tonelada',103,3,'2024-11-03',00000000007),(00000000068,39,25,'Tonelada',950,3,'2024-11-03',00000000008),(00000000069,39,25,'Tonelada',887,3,'2024-11-03',00000000009),(00000000070,39,25,'Tonelada',1089,3,'2024-11-03',00000000010),(00000000071,27,11,'Tonelada',547,3,'2024-11-03',00000000011),(00000000072,81,20,'Tonelada',120,3,'2024-11-03',00000000012),(00000000073,51,7,'Tonelada',1084,3,'2024-11-03',00000000013),(00000000074,43,6,'Tonelada',912,3,'2024-11-03',00000000014),(00000000075,69,34,'Tonelada',150,3,'2024-11-03',00000000015),(00000000076,44,8,'Tonelada',612,3,'2024-11-03',00000000016);
 /*!40000 ALTER TABLE `ingreso_volumenes` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -161,6 +161,35 @@ INSERT INTO `municipios` VALUES (1,'Abriaquí',1,5),(2,'Acacías',1,50),(3,'Acan
 UNLOCK TABLES;
 
 --
+-- Temporary view structure for view `porcentaje_X_departamento`
+--
+
+DROP TABLE IF EXISTS `porcentaje_X_departamento`;
+/*!50001 DROP VIEW IF EXISTS `porcentaje_X_departamento`*/;
+SET @saved_cs_client     = @@character_set_client;
+/*!50503 SET character_set_client = utf8mb4 */;
+/*!50001 CREATE VIEW `porcentaje_X_departamento` AS SELECT 
+ 1 AS `Departamento`,
+ 1 AS `Total_Ingresos_Departamento`,
+ 1 AS `Porcentaje_Departamental`*/;
+SET character_set_client = @saved_cs_client;
+
+--
+-- Temporary view structure for view `porcentaje_X_productos_X_Dpto`
+--
+
+DROP TABLE IF EXISTS `porcentaje_X_productos_X_Dpto`;
+/*!50001 DROP VIEW IF EXISTS `porcentaje_X_productos_X_Dpto`*/;
+SET @saved_cs_client     = @@character_set_client;
+/*!50503 SET character_set_client = utf8mb4 */;
+/*!50001 CREATE VIEW `porcentaje_X_productos_X_Dpto` AS SELECT 
+ 1 AS `Departamento`,
+ 1 AS `Producto`,
+ 1 AS `Total_Ingresos_Departamento`,
+ 1 AS `Porcentaje_Departamental`*/;
+SET character_set_client = @saved_cs_client;
+
+--
 -- Table structure for table `productos`
 --
 
@@ -175,7 +204,7 @@ CREATE TABLE `productos` (
   UNIQUE KEY `idproducto_UNIQUE` (`id_producto`),
   KEY `categoria_idx` (`categoria_producto_id`),
   CONSTRAINT `categoria_id` FOREIGN KEY (`categoria_producto_id`) REFERENCES `categoria_productos` (`idcategoria_producto`) ON DELETE NO ACTION ON UPDATE NO ACTION
-) ENGINE=InnoDB AUTO_INCREMENT=74 DEFAULT CHARSET=latin1 COLLATE=latin1_spanish_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=82 DEFAULT CHARSET=latin1 COLLATE=latin1_spanish_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -184,7 +213,7 @@ CREATE TABLE `productos` (
 
 LOCK TABLES `productos` WRITE;
 /*!40000 ALTER TABLE `productos` DISABLE KEYS */;
-INSERT INTO `productos` VALUES (1,'Aguacate Sanvicente',1),(2,'Aguacate Hass',1),(3,'Aguacate Papelillo',1),(4,'Banano Criollo',1),(5,'Banano Uraba',1),(6,'Badea',1),(7,'Borojo',1),(8,'Ciruea Forby',1),(9,'Ciruela Criolla',1),(10,'Curuba',1),(11,'Durazno',1),(12,'Fresa',1),(13,'Guanabana',1),(14,'Guayaba Pera',1),(15,'Limon Tahiti',1),(16,'Limon Comun',1),(17,'Limon Mandarino',1),(18,'Lulo Criollo',1),(19,'Mandarina',1),(20,'Maracuya',1),(21,'Mango Tommy',1),(22,'Mora',1),(23,'Naranja Valencia',1),(24,'Papaya Maradol',1),(25,'Patilla',1),(26,'Piña Golden',1),(27,'Tomate De Arbol',1),(28,'Uva Isabela',1),(29,'Arveja',2),(30,'Ahuyama',2),(31,'Ajo Criollo',2),(32,'Cebolla Cabezona Blanca',2),(33,'Cebolla Cabezona Roja',2),(34,'Cebolla Junca Berlin',2),(35,'Frijol Verde',2),(36,'Habichuela',2),(37,'Pepino Cohombreo',2),(38,'Pimenton',2),(39,'Tomate Rio Grande',2),(40,'Tomate Milano',2),(41,'Remolacha',2),(42,'Repollo',2),(43,'Zanahoria',2),(44,'Mazorca',2),(45,'Apio Arracacha',3),(46,'Papa Amarilla',3),(47,'Papa Pastusa',3),(48,'Papa Unica',3),(49,'Yuca Saravena',3),(50,'Yuca Costeña',3),(51,'Yuca Yondo',3),(52,'Platano Saravena',3),(53,'Platano Llanero',3),(54,'Platano Quindiano',3),(55,'Apio en Rama',3),(56,'Brocoli',3),(57,'Espinacas',3),(58,'Cilantro',3),(59,'Lechuga',3),(60,'Perejil',3),(61,'Bagre Criollo',4),(62,'Bagre Saravena',4),(63,'Cachama',4),(64,'Mojarra',4),(65,'Arroz Excelso',5),(66,'Garbanzo Importado',5),(67,'Panela Morena',5),(68,'Panela Blanca',5),(69,'Azucar Refinada',5),(70,'Avena',5),(71,'Aceite',5),(72,'Harina De Trigo',5),(73,'Sal Yodada',5);
+INSERT INTO `productos` VALUES (1,'Aguacate Sanvicente',1),(2,'Aguacate Hass',1),(3,'Aguacate Papelillo',1),(4,'Banano Criollo',1),(5,'Banano Uraba',1),(6,'Badea',1),(7,'Borojo',1),(8,'Ciruea Forby',1),(9,'Ciruela Criolla',1),(10,'Curuba',1),(11,'Durazno',1),(12,'Fresa',1),(13,'Guanabana',1),(14,'Guayaba Pera',1),(15,'Limon Tahiti',1),(16,'Limon Comun',1),(17,'Limon Mandarino',1),(18,'Lulo Criollo',1),(19,'Mandarina',1),(20,'Maracuya',1),(21,'Mango Tommy',1),(22,'Mora',1),(23,'Naranja Valencia',1),(24,'Papaya Maradol',1),(25,'Patilla',1),(26,'Piña Golden',1),(27,'Tomate De Arbol',1),(28,'Uva Isabela',1),(29,'Arveja',2),(30,'Ahuyama',2),(31,'Ajo Criollo',2),(32,'Cebolla Cabezona Blanca',2),(33,'Cebolla Cabezona Roja',2),(34,'Cebolla Junca Berlin',2),(35,'Frijol Verde',2),(36,'Habichuela',2),(37,'Pepino Cohombreo',2),(38,'Pimenton',2),(39,'Tomate Rio Grande',2),(40,'Tomate Milano',2),(41,'Remolacha',2),(42,'Repollo',2),(43,'Zanahoria',2),(44,'Mazorca',2),(45,'Apio Arracacha',3),(46,'Papa Amarilla',3),(47,'Papa Pastusa',3),(48,'Papa Unica',3),(49,'Yuca Saravena',3),(50,'Yuca Costeña',3),(51,'Yuca Yondo',3),(52,'Platano Saravena',3),(53,'Platano Llanero',3),(54,'Platano Quindiano',3),(55,'Apio en Rama',3),(56,'Brocoli',3),(57,'Espinacas',3),(58,'Cilantro',3),(59,'Lechuga',3),(60,'Perejil',3),(61,'Bagre Criollo',4),(62,'Bagre Saravena',4),(63,'Cachama',4),(64,'Mojarra',4),(65,'Arroz Excelso',5),(66,'Garbanzo Importado',5),(67,'Panela Morena',5),(68,'Panela Blanca',5),(69,'Azucar Refinada',5),(70,'Avena',5),(71,'Aceite',5),(72,'Harina De Trigo',5),(73,'Sal Yodada',5),(74,'Aguacate Choquette',1),(75,'Ajo Importado',5),(76,'Arveja Ipiales',2),(77,'Cebolla Roja Peruana',2),(78,'Lechuga Bogotana',3),(79,'Coliflor',3),(80,'Melon',1),(81,'Uva Americana',1);
 /*!40000 ALTER TABLE `productos` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -223,6 +252,20 @@ INSERT INTO `usuarios` VALUES (1,1098727043,'Jose Alfonso Sanchez Hernandez','Au
 UNLOCK TABLES;
 
 --
+-- Temporary view structure for view `v_Resumen_Mensual_de_Ingresos`
+--
+
+DROP TABLE IF EXISTS `v_Resumen_Mensual_de_Ingresos`;
+/*!50001 DROP VIEW IF EXISTS `v_Resumen_Mensual_de_Ingresos`*/;
+SET @saved_cs_client     = @@character_set_client;
+/*!50503 SET character_set_client = utf8mb4 */;
+/*!50001 CREATE VIEW `v_Resumen_Mensual_de_Ingresos` AS SELECT 
+ 1 AS `Mes`,
+ 1 AS `Categoria`,
+ 1 AS `Total_Productos_Ingresados`*/;
+SET character_set_client = @saved_cs_client;
+
+--
 -- Temporary view structure for view `v_listado_ingreso_volumenes`
 --
 
@@ -232,7 +275,6 @@ SET @saved_cs_client     = @@character_set_client;
 /*!50503 SET character_set_client = utf8mb4 */;
 /*!50001 CREATE VIEW `v_listado_ingreso_volumenes` AS SELECT 
  1 AS `idingreso_volumen`,
- 1 AS `producto_id`,
  1 AS `producto`,
  1 AS `Cantidad`,
  1 AS `Tonelada`,
@@ -252,7 +294,6 @@ SET @saved_cs_client     = @@character_set_client;
 /*!50001 CREATE VIEW `v_listado_productos` AS SELECT 
  1 AS `Codigo_Producto`,
  1 AS `Producto`,
- 1 AS `Codigo_Cat_Producto`,
  1 AS `Categoria_Producto`*/;
 SET character_set_client = @saved_cs_client;
 
@@ -285,6 +326,34 @@ SET @saved_cs_client     = @@character_set_client;
 SET character_set_client = @saved_cs_client;
 
 --
+-- Temporary view structure for view `v_total_producto_ingresado_X_Dpto`
+--
+
+DROP TABLE IF EXISTS `v_total_producto_ingresado_X_Dpto`;
+/*!50001 DROP VIEW IF EXISTS `v_total_producto_ingresado_X_Dpto`*/;
+SET @saved_cs_client     = @@character_set_client;
+/*!50503 SET character_set_client = utf8mb4 */;
+/*!50001 CREATE VIEW `v_total_producto_ingresado_X_Dpto` AS SELECT 
+ 1 AS `Departamento`,
+ 1 AS `Total_Productos_Ingresados`*/;
+SET character_set_client = @saved_cs_client;
+
+--
+-- Temporary view structure for view `v_total_producto_y_vehiculos`
+--
+
+DROP TABLE IF EXISTS `v_total_producto_y_vehiculos`;
+/*!50001 DROP VIEW IF EXISTS `v_total_producto_y_vehiculos`*/;
+SET @saved_cs_client     = @@character_set_client;
+/*!50503 SET character_set_client = utf8mb4 */;
+/*!50001 CREATE VIEW `v_total_producto_y_vehiculos` AS SELECT 
+ 1 AS `Departamento`,
+ 1 AS `Municipio`,
+ 1 AS `Total_Productos`,
+ 1 AS `Vehiculos_Ingresados`*/;
+SET character_set_client = @saved_cs_client;
+
+--
 -- Table structure for table `vehiculos`
 --
 
@@ -300,7 +369,7 @@ CREATE TABLE `vehiculos` (
   UNIQUE KEY `placa_vehiculo_UNIQUE` (`placa_vehiculo`),
   KEY `categorias_id_idx` (`categoria_id`),
   CONSTRAINT `categorias_id` FOREIGN KEY (`categoria_id`) REFERENCES `categorias_vehiculos` (`idcategoria_vehiculo`) ON DELETE NO ACTION ON UPDATE NO ACTION
-) ENGINE=InnoDB AUTO_INCREMENT=17 DEFAULT CHARSET=latin1 COLLATE=latin1_spanish_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=18 DEFAULT CHARSET=latin1 COLLATE=latin1_spanish_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -309,7 +378,7 @@ CREATE TABLE `vehiculos` (
 
 LOCK TABLES `vehiculos` WRITE;
 /*!40000 ALTER TABLE `vehiculos` DISABLE KEYS */;
-INSERT INTO `vehiculos` VALUES (00000000001,'XMD181',1),(00000000002,'BUG993',2),(00000000003,'HAR264',3),(00000000004,'XMD182',1),(00000000005,'XVW943',1),(00000000006,'HAR265',4),(00000000007,'BUG994',3),(00000000008,'GQU973',3),(00000000009,'LOL903',4),(00000000010,'KLK540',2),(00000000011,'POK123',3),(00000000012,'LLL903',4),(00000000013,'TTT098',3),(00000000014,'MNK943',2),(00000000015,'XME144',5),(00000000016,'QAZ345',2);
+INSERT INTO `vehiculos` VALUES (00000000001,'XMD181',1),(00000000002,'BUG993',2),(00000000003,'HAR264',3),(00000000004,'XMD182',1),(00000000005,'XVW943',1),(00000000006,'HAR265',4),(00000000007,'BUG994',3),(00000000008,'GQU973',3),(00000000009,'LOL903',4),(00000000010,'KLK540',2),(00000000011,'POK123',3),(00000000012,'LLL903',4),(00000000013,'TTT098',3),(00000000014,'MNK943',2),(00000000015,'XME144',5),(00000000016,'QAZ345',2),(00000000017,'XMD111',1);
 /*!40000 ALTER TABLE `vehiculos` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -330,26 +399,30 @@ UNLOCK TABLES;
 /*!50003 SET @saved_sql_mode       = @@sql_mode */ ;
 /*!50003 SET sql_mode              = '' */ ;
 DELIMITER ;;
-CREATE DEFINER=`credicel_mysql_estudiantes_ago24`@`%` PROCEDURE `InformeIngresos`(IN fecha DATE)
+CREATE DEFINER=`credicel_mysql_estudiantes_ago24`@`%` PROCEDURE `InformeIngresos`(IN fecha_inicio DATE, IN fecha_final DATE)
 BEGIN
     SELECT 
-		productos.nombre_producto AS Producto,
-       	SUM(cantidad_ingreso) AS Volumenes_Totales,
+        productos.nombre_producto AS Producto,
+        SUM(cantidad_ingreso) AS Volumenes_Totales,
         medida_volumen,
-        COUNT(*) AS Total_Vehiculos_Ingresados,		
-		ingreso_volumenes.fecha_ingreso AS Fecha_Ingreso,
+        COUNT(*) AS Total_Vehiculos_Ingresados,
+        ingreso_volumenes.fecha_ingreso AS Fecha_Ingreso,
         municipios.municipio AS Procedencia,
-        departamentos.departamento AS Departamento	
+        departamentos.departamento AS Departamento
     FROM 
         ingreso_volumenes
-        join productos on ingreso_volumenes.producto_id = productos.id_producto
-		join municipios on ingreso_volumenes.municipio_id = municipios.id_municipio	
-        join departamentos on municipios.departamento_id = departamentos.id_departamento        
+    JOIN 
+        productos ON ingreso_volumenes.producto_id = productos.id_producto
+    JOIN 
+        municipios ON ingreso_volumenes.municipio_id = municipios.id_municipio
+    JOIN 
+        departamentos ON municipios.departamento_id = departamentos.id_departamento
     WHERE 
-        fecha_ingreso = fecha
-	GROUP BY producto_id 
-	ORDER BY 
-       cantidad_ingreso desc;
+        ingreso_volumenes.fecha_ingreso BETWEEN fecha_inicio AND fecha_final  
+    GROUP BY 
+        productos.id_producto  
+    ORDER BY 
+        Volumenes_Totales DESC;
 
 END ;;
 DELIMITER ;
@@ -357,6 +430,142 @@ DELIMITER ;
 /*!50003 SET character_set_client  = @saved_cs_client */ ;
 /*!50003 SET character_set_results = @saved_cs_results */ ;
 /*!50003 SET collation_connection  = @saved_col_connection */ ;
+/*!50003 DROP PROCEDURE IF EXISTS `ProductosConMayorIngreso` */;
+/*!50003 SET @saved_cs_client      = @@character_set_client */ ;
+/*!50003 SET @saved_cs_results     = @@character_set_results */ ;
+/*!50003 SET @saved_col_connection = @@collation_connection */ ;
+/*!50003 SET character_set_client  = utf8mb4 */ ;
+/*!50003 SET character_set_results = utf8mb4 */ ;
+/*!50003 SET collation_connection  = utf8mb4_general_ci */ ;
+/*!50003 SET @saved_sql_mode       = @@sql_mode */ ;
+/*!50003 SET sql_mode              = '' */ ;
+DELIMITER ;;
+CREATE DEFINER=`credicel_mysql_estudiantes_ago24`@`%` PROCEDURE `ProductosConMayorIngreso`(
+    IN fecha_inicio DATE,
+    IN fecha_fin DATE
+)
+BEGIN
+    SELECT 
+        p.nombre_producto AS Producto,
+        cp.nombre_categoria_producto AS Categoria,
+        m.municipio AS Municipio,
+        SUM(iv.cantidad_ingreso) AS Total_Ingresado
+    FROM
+        ingreso_volumenes AS iv
+    JOIN
+        productos AS p ON iv.producto_id = p.id_producto
+    JOIN
+        categoria_productos AS cp ON p.categoria_producto_id = cp.idcategoria_producto
+    JOIN
+        municipios AS m ON iv.municipio_id = m.id_municipio
+    WHERE 
+        iv.fecha_ingreso BETWEEN fecha_inicio AND fecha_fin
+    GROUP BY 
+        p.nombre_producto, cp.nombre_categoria_producto, m.municipio
+    ORDER BY 
+        Total_Ingresado DESC
+    LIMIT 5;
+END ;;
+DELIMITER ;
+/*!50003 SET sql_mode              = @saved_sql_mode */ ;
+/*!50003 SET character_set_client  = @saved_cs_client */ ;
+/*!50003 SET character_set_results = @saved_cs_results */ ;
+/*!50003 SET collation_connection  = @saved_col_connection */ ;
+/*!50003 DROP PROCEDURE IF EXISTS `ProductosConMenorIngreso` */;
+/*!50003 SET @saved_cs_client      = @@character_set_client */ ;
+/*!50003 SET @saved_cs_results     = @@character_set_results */ ;
+/*!50003 SET @saved_col_connection = @@collation_connection */ ;
+/*!50003 SET character_set_client  = utf8mb4 */ ;
+/*!50003 SET character_set_results = utf8mb4 */ ;
+/*!50003 SET collation_connection  = utf8mb4_general_ci */ ;
+/*!50003 SET @saved_sql_mode       = @@sql_mode */ ;
+/*!50003 SET sql_mode              = '' */ ;
+DELIMITER ;;
+CREATE DEFINER=`credicel_mysql_estudiantes_ago24`@`%` PROCEDURE `ProductosConMenorIngreso`(
+    IN fecha_inicio DATE,
+    IN fecha_fin DATE
+)
+BEGIN
+    SELECT 
+        p.nombre_producto AS Producto,
+        cp.nombre_categoria_producto AS Categoria,
+        m.municipio AS Municipio,
+        SUM(iv.cantidad_ingreso) AS Total_Ingresado
+    FROM
+        ingreso_volumenes AS iv
+    JOIN
+        productos AS p ON iv.producto_id = p.id_producto
+    JOIN
+        categoria_productos AS cp ON p.categoria_producto_id = cp.idcategoria_producto
+    JOIN
+        municipios AS m ON iv.municipio_id = m.id_municipio
+    WHERE 
+        iv.fecha_ingreso BETWEEN fecha_inicio AND fecha_fin
+    GROUP BY 
+        p.nombre_producto, cp.nombre_categoria_producto, m.municipio
+    ORDER BY 
+        Total_Ingresado ASC
+    LIMIT 5;
+END ;;
+DELIMITER ;
+/*!50003 SET sql_mode              = @saved_sql_mode */ ;
+/*!50003 SET character_set_client  = @saved_cs_client */ ;
+/*!50003 SET character_set_results = @saved_cs_results */ ;
+/*!50003 SET collation_connection  = @saved_col_connection */ ;
+
+--
+-- Final view structure for view `porcentaje_X_departamento`
+--
+
+/*!50001 DROP VIEW IF EXISTS `porcentaje_X_departamento`*/;
+/*!50001 SET @saved_cs_client          = @@character_set_client */;
+/*!50001 SET @saved_cs_results         = @@character_set_results */;
+/*!50001 SET @saved_col_connection     = @@collation_connection */;
+/*!50001 SET character_set_client      = utf8mb4 */;
+/*!50001 SET character_set_results     = utf8mb4 */;
+/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+/*!50001 CREATE ALGORITHM=UNDEFINED */
+/*!50013 DEFINER=`credicel_mysql_estudiantes_ago24`@`%` SQL SECURITY DEFINER */
+/*!50001 VIEW `porcentaje_X_departamento` AS select `d`.`departamento` AS `Departamento`,sum(`iv`.`cantidad_ingreso`) AS `Total_Ingresos_Departamento`,round(sum(`iv`.`cantidad_ingreso`) / (select sum(`iv2`.`cantidad_ingreso`) from `ingreso_volumenes` `iv2`) * 100,2) AS `Porcentaje_Departamental` from ((`ingreso_volumenes` `iv` join `municipios` `m` on(`iv`.`municipio_id` = `m`.`id_municipio`)) join `departamentos` `d` on(`m`.`departamento_id` = `d`.`id_departamento`)) group by `d`.`departamento` order by round(sum(`iv`.`cantidad_ingreso`) / (select sum(`iv2`.`cantidad_ingreso`) from `ingreso_volumenes` `iv2`) * 100,2) desc */;
+/*!50001 SET character_set_client      = @saved_cs_client */;
+/*!50001 SET character_set_results     = @saved_cs_results */;
+/*!50001 SET collation_connection      = @saved_col_connection */;
+
+--
+-- Final view structure for view `porcentaje_X_productos_X_Dpto`
+--
+
+/*!50001 DROP VIEW IF EXISTS `porcentaje_X_productos_X_Dpto`*/;
+/*!50001 SET @saved_cs_client          = @@character_set_client */;
+/*!50001 SET @saved_cs_results         = @@character_set_results */;
+/*!50001 SET @saved_col_connection     = @@collation_connection */;
+/*!50001 SET character_set_client      = utf8mb4 */;
+/*!50001 SET character_set_results     = utf8mb4 */;
+/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+/*!50001 CREATE ALGORITHM=UNDEFINED */
+/*!50013 DEFINER=`credicel_mysql_estudiantes_ago24`@`%` SQL SECURITY DEFINER */
+/*!50001 VIEW `porcentaje_X_productos_X_Dpto` AS select `d`.`departamento` AS `Departamento`,`p`.`nombre_producto` AS `Producto`,sum(`iv`.`cantidad_ingreso`) AS `Total_Ingresos_Departamento`,round(sum(`iv`.`cantidad_ingreso`) / (select sum(`iv2`.`cantidad_ingreso`) from `ingreso_volumenes` `iv2`) * 100,2) AS `Porcentaje_Departamental` from (((`ingreso_volumenes` `iv` join `productos` `p` on(`iv`.`producto_id` = `p`.`id_producto`)) join `municipios` `m` on(`iv`.`municipio_id` = `m`.`id_municipio`)) join `departamentos` `d` on(`m`.`departamento_id` = `d`.`id_departamento`)) group by `d`.`departamento`,`p`.`nombre_producto` order by round(sum(`iv`.`cantidad_ingreso`) / (select sum(`iv2`.`cantidad_ingreso`) from `ingreso_volumenes` `iv2`) * 100,2) desc */;
+/*!50001 SET character_set_client      = @saved_cs_client */;
+/*!50001 SET character_set_results     = @saved_cs_results */;
+/*!50001 SET collation_connection      = @saved_col_connection */;
+
+--
+-- Final view structure for view `v_Resumen_Mensual_de_Ingresos`
+--
+
+/*!50001 DROP VIEW IF EXISTS `v_Resumen_Mensual_de_Ingresos`*/;
+/*!50001 SET @saved_cs_client          = @@character_set_client */;
+/*!50001 SET @saved_cs_results         = @@character_set_results */;
+/*!50001 SET @saved_col_connection     = @@collation_connection */;
+/*!50001 SET character_set_client      = utf8mb4 */;
+/*!50001 SET character_set_results     = utf8mb4 */;
+/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+/*!50001 CREATE ALGORITHM=UNDEFINED */
+/*!50013 DEFINER=`credicel_mysql_estudiantes_ago24`@`%` SQL SECURITY DEFINER */
+/*!50001 VIEW `v_Resumen_Mensual_de_Ingresos` AS select month(`iv`.`fecha_ingreso`) AS `Mes`,`cp`.`nombre_categoria_producto` AS `Categoria`,sum(`iv`.`cantidad_ingreso`) AS `Total_Productos_Ingresados` from ((`ingreso_volumenes` `iv` join `productos` `p` on(`iv`.`producto_id` = `p`.`id_producto`)) join `categoria_productos` `cp` on(`p`.`categoria_producto_id` = `cp`.`idcategoria_producto`)) group by month(`iv`.`fecha_ingreso`),`cp`.`nombre_categoria_producto` order by month(`iv`.`fecha_ingreso`),sum(`iv`.`cantidad_ingreso`) desc */;
+/*!50001 SET character_set_client      = @saved_cs_client */;
+/*!50001 SET character_set_results     = @saved_cs_results */;
+/*!50001 SET collation_connection      = @saved_col_connection */;
 
 --
 -- Final view structure for view `v_listado_ingreso_volumenes`
@@ -371,7 +580,7 @@ DELIMITER ;
 /*!50001 SET collation_connection      = utf8mb4_general_ci */;
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`credicel_mysql_estudiantes_ago24`@`%` SQL SECURITY DEFINER */
-/*!50001 VIEW `v_listado_ingreso_volumenes` AS select `ingreso_volumenes`.`idingreso_volumen` AS `idingreso_volumen`,`ingreso_volumenes`.`producto_id` AS `producto_id`,`productos`.`nombre_producto` AS `producto`,`ingreso_volumenes`.`cantidad_ingreso` AS `Cantidad`,`ingreso_volumenes`.`medida_volumen` AS `Tonelada`,`ingreso_volumenes`.`fecha_ingreso` AS `fecha_ingreso`,`municipios`.`municipio` AS `Procedencia`,`departamentos`.`departamento` AS `Departamento` from (((`ingreso_volumenes` join `productos` on(`ingreso_volumenes`.`producto_id` = `productos`.`id_producto`)) join `municipios` on(`ingreso_volumenes`.`municipio_id` = `municipios`.`id_municipio`)) join `departamentos` on(`municipios`.`departamento_id` = `departamentos`.`id_departamento`)) */;
+/*!50001 VIEW `v_listado_ingreso_volumenes` AS select `ingreso_volumenes`.`idingreso_volumen` AS `idingreso_volumen`,`productos`.`nombre_producto` AS `producto`,`ingreso_volumenes`.`cantidad_ingreso` AS `Cantidad`,`ingreso_volumenes`.`medida_volumen` AS `Tonelada`,`ingreso_volumenes`.`fecha_ingreso` AS `fecha_ingreso`,`municipios`.`municipio` AS `Procedencia`,`departamentos`.`departamento` AS `Departamento` from (((`ingreso_volumenes` join `productos` on(`ingreso_volumenes`.`producto_id` = `productos`.`id_producto`)) join `municipios` on(`ingreso_volumenes`.`municipio_id` = `municipios`.`id_municipio`)) join `departamentos` on(`municipios`.`departamento_id` = `departamentos`.`id_departamento`)) */;
 /*!50001 SET character_set_client      = @saved_cs_client */;
 /*!50001 SET character_set_results     = @saved_cs_results */;
 /*!50001 SET collation_connection      = @saved_col_connection */;
@@ -389,7 +598,7 @@ DELIMITER ;
 /*!50001 SET collation_connection      = utf8mb4_general_ci */;
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`credicel_mysql_estudiantes_ago24`@`%` SQL SECURITY DEFINER */
-/*!50001 VIEW `v_listado_productos` AS select `productos`.`id_producto` AS `Codigo_Producto`,`productos`.`nombre_producto` AS `Producto`,`productos`.`categoria_producto_id` AS `Codigo_Cat_Producto`,`categoria_productos`.`nombre_categoria_producto` AS `Categoria_Producto` from (`productos` join `categoria_productos` on(`productos`.`categoria_producto_id` = `categoria_productos`.`idcategoria_producto`)) order by `productos`.`nombre_producto` */;
+/*!50001 VIEW `v_listado_productos` AS select `productos`.`id_producto` AS `Codigo_Producto`,`productos`.`nombre_producto` AS `Producto`,`categoria_productos`.`nombre_categoria_producto` AS `Categoria_Producto` from (`productos` join `categoria_productos` on(`productos`.`categoria_producto_id` = `categoria_productos`.`idcategoria_producto`)) order by `productos`.`nombre_producto` */;
 /*!50001 SET character_set_client      = @saved_cs_client */;
 /*!50001 SET character_set_results     = @saved_cs_results */;
 /*!50001 SET collation_connection      = @saved_col_connection */;
@@ -429,6 +638,42 @@ DELIMITER ;
 /*!50001 SET character_set_client      = @saved_cs_client */;
 /*!50001 SET character_set_results     = @saved_cs_results */;
 /*!50001 SET collation_connection      = @saved_col_connection */;
+
+--
+-- Final view structure for view `v_total_producto_ingresado_X_Dpto`
+--
+
+/*!50001 DROP VIEW IF EXISTS `v_total_producto_ingresado_X_Dpto`*/;
+/*!50001 SET @saved_cs_client          = @@character_set_client */;
+/*!50001 SET @saved_cs_results         = @@character_set_results */;
+/*!50001 SET @saved_col_connection     = @@collation_connection */;
+/*!50001 SET character_set_client      = utf8mb4 */;
+/*!50001 SET character_set_results     = utf8mb4 */;
+/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+/*!50001 CREATE ALGORITHM=UNDEFINED */
+/*!50013 DEFINER=`credicel_mysql_estudiantes_ago24`@`%` SQL SECURITY DEFINER */
+/*!50001 VIEW `v_total_producto_ingresado_X_Dpto` AS select `d`.`departamento` AS `Departamento`,sum(`iv`.`cantidad_ingreso`) AS `Total_Productos_Ingresados` from (((`ingreso_volumenes` `iv` join `productos` `p` on(`iv`.`producto_id` = `p`.`id_producto`)) join `municipios` `m` on(`iv`.`municipio_id` = `m`.`id_municipio`)) join `departamentos` `d` on(`m`.`departamento_id` = `d`.`id_departamento`)) group by `d`.`departamento` order by sum(`iv`.`cantidad_ingreso`) desc */;
+/*!50001 SET character_set_client      = @saved_cs_client */;
+/*!50001 SET character_set_results     = @saved_cs_results */;
+/*!50001 SET collation_connection      = @saved_col_connection */;
+
+--
+-- Final view structure for view `v_total_producto_y_vehiculos`
+--
+
+/*!50001 DROP VIEW IF EXISTS `v_total_producto_y_vehiculos`*/;
+/*!50001 SET @saved_cs_client          = @@character_set_client */;
+/*!50001 SET @saved_cs_results         = @@character_set_results */;
+/*!50001 SET @saved_col_connection     = @@collation_connection */;
+/*!50001 SET character_set_client      = utf8mb4 */;
+/*!50001 SET character_set_results     = utf8mb4 */;
+/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+/*!50001 CREATE ALGORITHM=UNDEFINED */
+/*!50013 DEFINER=`credicel_mysql_estudiantes_ago24`@`%` SQL SECURITY DEFINER */
+/*!50001 VIEW `v_total_producto_y_vehiculos` AS select `d`.`departamento` AS `Departamento`,`m`.`municipio` AS `Municipio`,sum(`iv`.`cantidad_ingreso`) AS `Total_Productos`,count(distinct `iv`.`vehiculo_id`) AS `Vehiculos_Ingresados` from (((`ingreso_volumenes` `iv` join `productos` `p` on(`iv`.`producto_id` = `p`.`id_producto`)) join `municipios` `m` on(`iv`.`municipio_id` = `m`.`id_municipio`)) join `departamentos` `d` on(`m`.`departamento_id` = `d`.`id_departamento`)) group by `d`.`departamento`,`m`.`municipio` order by sum(`iv`.`cantidad_ingreso`) desc,`m`.`municipio` */;
+/*!50001 SET character_set_client      = @saved_cs_client */;
+/*!50001 SET character_set_results     = @saved_cs_results */;
+/*!50001 SET collation_connection      = @saved_col_connection */;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -439,4 +684,4 @@ DELIMITER ;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2024-11-01 20:29:47
+-- Dump completed on 2024-11-04 22:35:05
