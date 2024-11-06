@@ -18,29 +18,29 @@ USE `credicel_BD_VOLUMENES_CAB`;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `categoria_productos`
+-- Table structure for table `categorias_vehiculos`
 --
 
-DROP TABLE IF EXISTS `categoria_productos`;
+DROP TABLE IF EXISTS `categorias_vehiculos`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
-CREATE TABLE `categoria_productos` (
-  `idcategoria_producto` int(11) NOT NULL AUTO_INCREMENT,
-  `nombre_categoria_producto` varchar(45) NOT NULL,
-  PRIMARY KEY (`idcategoria_producto`),
-  UNIQUE KEY `idcategoria_productos_UNIQUE` (`idcategoria_producto`),
-  UNIQUE KEY `nombre_categoria_producto_UNIQUE` (`nombre_categoria_producto`)
+CREATE TABLE `categorias_vehiculos` (
+  `idcategoria_vehiculo` int(11) NOT NULL AUTO_INCREMENT,
+  `nombre` varchar(45) NOT NULL,
+  PRIMARY KEY (`idcategoria_vehiculo`),
+  UNIQUE KEY `idcategorias_UNIQUE` (`idcategoria_vehiculo`),
+  UNIQUE KEY `nombre_UNIQUE` (`nombre`)
 ) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=latin1 COLLATE=latin1_spanish_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `categoria_productos`
+-- Dumping data for table `categorias_vehiculos`
 --
 
-LOCK TABLES `categoria_productos` WRITE;
-/*!40000 ALTER TABLE `categoria_productos` DISABLE KEYS */;
-INSERT INTO `categoria_productos` VALUES (5,'ABARROTES'),(1,'FRUTAS'),(3,'HORTALIZAS'),(4,'PESCADO'),(2,'VERDURAS');
-/*!40000 ALTER TABLE `categoria_productos` ENABLE KEYS */;
+LOCK TABLES `categorias_vehiculos` WRITE;
+/*!40000 ALTER TABLE `categorias_vehiculos` DISABLE KEYS */;
+INSERT INTO `categorias_vehiculos` VALUES (1,'CATEGORIA 0'),(2,'CATEGORIA 1'),(3,'CATEGORIA 2'),(4,'CATEGORIA 3'),(5,'CATEGORIA 4');
+/*!40000 ALTER TABLE `categorias_vehiculos` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
@@ -52,4 +52,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2024-11-05 20:59:21
+-- Dump completed on 2024-11-05 20:59:18

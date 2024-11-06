@@ -18,29 +18,37 @@ USE `credicel_BD_VOLUMENES_CAB`;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `categoria_productos`
+-- Table structure for table `usuarios`
 --
 
-DROP TABLE IF EXISTS `categoria_productos`;
+DROP TABLE IF EXISTS `usuarios`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
-CREATE TABLE `categoria_productos` (
-  `idcategoria_producto` int(11) NOT NULL AUTO_INCREMENT,
-  `nombre_categoria_producto` varchar(45) NOT NULL,
-  PRIMARY KEY (`idcategoria_producto`),
-  UNIQUE KEY `idcategoria_productos_UNIQUE` (`idcategoria_producto`),
-  UNIQUE KEY `nombre_categoria_producto_UNIQUE` (`nombre_categoria_producto`)
-) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=latin1 COLLATE=latin1_spanish_ci;
+CREATE TABLE `usuarios` (
+  `id_usuario` int(11) NOT NULL AUTO_INCREMENT,
+  `documento_identidad` int(11) NOT NULL,
+  `nombres_usuario` varchar(60) NOT NULL,
+  `cargo_usuario` varchar(45) NOT NULL,
+  `cel_usuario` int(20) NOT NULL,
+  `email_usuario` varchar(45) NOT NULL,
+  `login_usuario` varchar(45) NOT NULL,
+  `clave_usuario` varchar(45) NOT NULL,
+  PRIMARY KEY (`id_usuario`),
+  UNIQUE KEY `idusuario_UNIQUE` (`id_usuario`),
+  UNIQUE KEY `documento_identidad_UNIQUE` (`documento_identidad`),
+  UNIQUE KEY `login_usuario_UNIQUE` (`login_usuario`),
+  UNIQUE KEY `email_usuario_UNIQUE` (`email_usuario`)
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=latin1 COLLATE=latin1_bin;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `categoria_productos`
+-- Dumping data for table `usuarios`
 --
 
-LOCK TABLES `categoria_productos` WRITE;
-/*!40000 ALTER TABLE `categoria_productos` DISABLE KEYS */;
-INSERT INTO `categoria_productos` VALUES (5,'ABARROTES'),(1,'FRUTAS'),(3,'HORTALIZAS'),(4,'PESCADO'),(2,'VERDURAS');
-/*!40000 ALTER TABLE `categoria_productos` ENABLE KEYS */;
+LOCK TABLES `usuarios` WRITE;
+/*!40000 ALTER TABLE `usuarios` DISABLE KEYS */;
+INSERT INTO `usuarios` VALUES (1,1098727043,'Jose Alfonso Sanchez Hernandez','Aux Operacciones',2147483647,'jassh619@gmail.com','JSANCHEZ','Abc_123'),(2,88164264,'Ciro Caceres','Aux Operaciones',2147483647,'ccaceres@gmail.com','CCACERES','Def_123'),(3,91292169,'Jose Excelino Ariza Hernandez','Aux Operaciones',2147483647,'jariza@gmail.com','JARIZA','Fgh_123'),(4,43089745,'Maria Nelly Hernandez Gomez','Aux Opraciones',2147483647,'mhernandez@gmail.com','MHERNANDEZ','Ghj_123');
+/*!40000 ALTER TABLE `usuarios` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
@@ -52,4 +60,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2024-11-05 20:59:21
+-- Dump completed on 2024-11-05 20:59:17

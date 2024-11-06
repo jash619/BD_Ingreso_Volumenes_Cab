@@ -25,14 +25,15 @@ DROP TABLE IF EXISTS `vehiculos`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `vehiculos` (
-  `idvehiculos` int(11) NOT NULL AUTO_INCREMENT,
-  `placa_vehiculos` varchar(45) NOT NULL,
-  `categorias_id` int(11) NOT NULL,
-  PRIMARY KEY (`idvehiculos`),
-  UNIQUE KEY `idvehiculos_UNIQUE` (`idvehiculos`),
-  KEY `categorias_id_idx` (`categorias_id`),
-  CONSTRAINT `categorias_id` FOREIGN KEY (`categorias_id`) REFERENCES `categorias` (`idcategorias`) ON DELETE NO ACTION ON UPDATE NO ACTION
-) ENGINE=InnoDB AUTO_INCREMENT=17 DEFAULT CHARSET=latin1 COLLATE=latin1_spanish_ci;
+  `idvehiculo` int(11) unsigned zerofill NOT NULL AUTO_INCREMENT,
+  `placa_vehiculo` varchar(45) NOT NULL,
+  `categoria_id` int(11) NOT NULL,
+  PRIMARY KEY (`idvehiculo`),
+  UNIQUE KEY `idvehiculos_UNIQUE` (`idvehiculo`),
+  UNIQUE KEY `placa_vehiculo_UNIQUE` (`placa_vehiculo`),
+  KEY `categorias_id_idx` (`categoria_id`),
+  CONSTRAINT `categorias_id` FOREIGN KEY (`categoria_id`) REFERENCES `categorias_vehiculos` (`idcategoria_vehiculo`) ON DELETE NO ACTION ON UPDATE NO ACTION
+) ENGINE=InnoDB AUTO_INCREMENT=18 DEFAULT CHARSET=latin1 COLLATE=latin1_spanish_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -41,7 +42,7 @@ CREATE TABLE `vehiculos` (
 
 LOCK TABLES `vehiculos` WRITE;
 /*!40000 ALTER TABLE `vehiculos` DISABLE KEYS */;
-INSERT INTO `vehiculos` VALUES (1,'XMD181',1),(2,'BUG993',2),(3,'HAR264',3),(4,'XMD182',1),(5,'XVW943',1),(6,'HAR265',4),(7,'BUG994',3),(8,'GQU973',3),(9,'LOL903',4),(10,'KLK540',2),(11,'POK123',3),(12,'LLL903',4),(13,'TTT098',3),(14,'MNK943',2),(15,'XME144',5),(16,'QAZ345',2);
+INSERT INTO `vehiculos` VALUES (00000000001,'XMD181',1),(00000000002,'BUG993',2),(00000000003,'HAR264',3),(00000000004,'XMD182',1),(00000000005,'XVW943',1),(00000000006,'HAR265',4),(00000000007,'BUG994',3),(00000000008,'GQU973',3),(00000000009,'LOL903',4),(00000000010,'KLK540',2),(00000000011,'POK123',3),(00000000012,'LLL903',4),(00000000013,'TTT098',3),(00000000014,'MNK943',2),(00000000015,'XME144',5),(00000000016,'QAZ345',2),(00000000017,'XMD111',1);
 /*!40000 ALTER TABLE `vehiculos` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -54,4 +55,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2024-10-16 18:31:01
+-- Dump completed on 2024-11-05 20:59:11
